@@ -26,7 +26,8 @@ L’arbre est ensuite construit récursivement en combinant les valeurs des deux
 
 
 ex : maximum d'un sous tableau
-:::mermaid
+
+```mermaid
 graph TD
 0[max = 1, \n intervalle 0...0]
 1[max = -4, \n intervalle 1...1]
@@ -46,7 +47,7 @@ graph TD
 
 03 --- 01
 03 --- 23
-:::
+```
 
 ## Organisation
 
