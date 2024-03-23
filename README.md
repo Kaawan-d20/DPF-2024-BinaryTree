@@ -26,8 +26,27 @@ L’arbre est ensuite construit récursivement en combinant les valeurs des deux
 
 
 ex : maximum d'un sous tableau
+:::mermaid
+graph TD
+0[max = 1, \n intervalle 0...0]
+1[max = -4, \n intervalle 1...1]
+2[max = 6, \n intervalle 2...2]
+3[max = 8, \n intervalle 3...3]
 
-[![](https://mermaid.ink/img/pako:eNp90T0LwjAQBuC_ctzcliYRkYKbq5NuxiE0hxZNWkIqivjfPfu1tLi9HA_3htwby9oSFngJprnCcad9fnLmCVsQCWjtofKRwsPc7wR5lmX5WXsxiHQ1I4KJYCIHsp4JyUKyUIPYzIRioVjwU8Tft3RF0x6_1DTsGZFa3DOWQZqmkE9J_KZSdVlOSfULeyumKBUm6Cg4U1n-zje3gMZ4JUcaC47WhJtG7T_sTBvrw8uXWMTQUoJtY02kXWX4Cm4ckq1iHfb9eborfb74UoJw?type=png)](https://mermaid.live/edit#pako:eNp90T0LwjAQBuC_ctzcliYRkYKbq5NuxiE0hxZNWkIqivjfPfu1tLi9HA_3htwby9oSFngJprnCcad9fnLmCVsQCWjtofKRwsPc7wR5lmX5WXsxiHQ1I4KJYCIHsp4JyUKyUIPYzIRioVjwU8Tft3RF0x6_1DTsGZFa3DOWQZqmkE9J_KZSdVlOSfULeyumKBUm6Cg4U1n-zje3gMZ4JUcaC47WhJtG7T_sTBvrw8uXWMTQUoJtY02kXWX4Cm4ckq1iHfb9eborfb74UoJw)
+01[max = 1, \n intervalle 0...1]
+23[max = 8n \n intervalle 2...3]
+
+03[max = 3, \n intervalle 0...3]
+
+01 --- 0
+01 --- 1
+
+23 --- 2
+23 --- 3
+
+03 --- 01
+03 --- 23
+:::
 
 ## Organisation
 
