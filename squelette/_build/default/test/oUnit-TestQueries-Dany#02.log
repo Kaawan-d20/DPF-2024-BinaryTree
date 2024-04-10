@@ -1,3 +1,6 @@
-2024-04-10T14:21:47+00:00 Dany#02 I: Start test TestQueries:1:test_sum_query2.
-2024-04-10T14:21:47+00:00 Dany#02 I: Test TestQueries:1:test_sum_query2 is successful.
-2024-04-10T14:21:47+00:00 Dany#02 I: End test TestQueries:1:test_sum_query2.
+2024-04-10T14:52:10+00:00 Dany#02 I: Start test TestQueries:1:test_sum_query2.
+2024-04-10T14:52:10+00:00 Dany#02 I: Test TestQueries:1:test_sum_query2 is successful.
+2024-04-10T14:52:10+00:00 Dany#02 I: End test TestQueries:1:test_sum_query2.
+2024-04-10T14:52:10+00:00 Dany#02 I: Start test TestQueries:12:test_mss_query1.
+2024-04-10T14:52:10+00:00 Dany#02 I: Test TestQueries:12:test_mss_query1 is successful.
+2024-04-10T14:52:10+00:00 Dany#02 I: End test TestQueries:12:test_mss_query1.

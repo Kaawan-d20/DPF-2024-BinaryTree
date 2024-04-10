@@ -42,6 +42,19 @@ let test_max_query3 _ =
 let test_max_query4 _ =
   assert_equal "(8, 2)" (MaxOcc.to_string (MaxOcc.query query_max 0 7))
 
+let query_mss = MaxSubSeg.create [ 1; 3; -2; 8; 7; 6; -5; 1 ]
+
+let test_mss_query1 _ =
+  assert_equal "10" (MaxSubSeg.to_string (MaxSubSeg.query query_mss 0 3))
+
+let test_mss_query2 _ =
+  assert_equal "21" (MaxSubSeg.to_string (MaxSubSeg.query query_mss 2 6))
+
+let test_mss_query3 _ =
+  assert_equal "13" (MaxSubSeg.to_string (MaxSubSeg.query query_mss 4 7))
+
+let test_mss_query4 _ =
+  assert_equal "23" (MaxSubSeg.to_string (MaxSubSeg.query query_mss 0 7))
 
 let suite =
   "TestQueries"
@@ -58,6 +71,10 @@ let suite =
          "test_max_query2" >:: test_max_query2;
          "test_max_query3" >:: test_max_query3;
          "test_max_query4" >:: test_max_query4;
+         "test_mss_query1" >:: test_mss_query1;
+         "test_mss_query2" >:: test_mss_query2;
+         "test_mss_query3" >:: test_mss_query3;
+         "test_mss_query4" >:: test_mss_query4;
        ]
 
 let () = run_test_tt_main suite

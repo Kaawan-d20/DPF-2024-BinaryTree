@@ -1,145 +1,161 @@
-2024-04-10T14:21:47+00:00 Dany#00 I: Runner: processes
-2024-04-10T14:21:47+00:00 Dany#00 I: Chooser: simple
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration suite_name = "TestQueries"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration cache_filename = "/mnt/c/Users/danyd/OneDrive/ALicence/ProgrammationFonctionnelle/DPF-2024-BinaryTree/squelette/_build/default/test/oUnit-$(suite_name).cache"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration run_gc_full_major = "true"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration display = "true"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration results_style_1_X = "false"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration testdata_dir = "none"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration health_check_interval = "1."
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration verbose = "false"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration chooser = "simple"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration output_html_dir = "none"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration processes_kill_period = "5."
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration runner = "processes"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration shards = "10"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration processes_grace_period = "5."
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration log_encoding = "utf-8"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration output_junit_file = "none"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration ci = "false"
-2024-04-10T14:21:47+00:00 Dany#00 I: Configuration output_file = "/mnt/c/Users/danyd/OneDrive/ALicence/ProgrammationFonctionnelle/DPF-2024-BinaryTree/squelette/_build/default/test/oUnit-$(suite_name)-$(shard_id).log"
-2024-04-10T14:21:47+00:00 Dany#00 I: Using 10 workers maximum.
-2024-04-10T14:21:47+00:00 Dany#00 I: Starting worker number Dany#01.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#01 started.
-2024-04-10T14:21:47+00:00 Dany#00 I: Starting worker number Dany#02.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#02 started.
-2024-04-10T14:21:47+00:00 Dany#00 I: Starting worker number Dany#03.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#03 started.
-2024-04-10T14:21:47+00:00 Dany#00 I: Starting worker number Dany#04.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#04 started.
-2024-04-10T14:21:47+00:00 Dany#00 I: Starting worker number Dany#05.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#05 started.
-2024-04-10T14:21:47+00:00 Dany#00 I: Starting worker number Dany#06.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#06 started.
-2024-04-10T14:21:47+00:00 Dany#00 I: Starting worker number Dany#07.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#07 started.
-2024-04-10T14:21:47+00:00 Dany#00 I: Starting worker number Dany#08.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#08 started.
-2024-04-10T14:21:47+00:00 Dany#00 I: Starting worker number Dany#09.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#09 started.
-2024-04-10T14:21:47+00:00 Dany#00 I: Starting worker number Dany#10.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#10 started.
-2024-04-10T14:21:47+00:00 Dany#00 I: 10 tests running: TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3, TestQueries:5:test_sum_update2, TestQueries:4:test_sum_update1, TestQueries:3:test_sum_query4, TestQueries:2:test_sum_query3, TestQueries:1:test_sum_query2, TestQueries:0:test_sum_query1.
-2024-04-10T14:21:47+00:00 Dany#01 I: Start test TestQueries:0:test_sum_query1.
-2024-04-10T14:21:47+00:00 Dany#02 I: Start test TestQueries:1:test_sum_query2.
-2024-04-10T14:21:47+00:00 Dany#03 I: Start test TestQueries:2:test_sum_query3.
-2024-04-10T14:21:47+00:00 Dany#04 I: Start test TestQueries:3:test_sum_query4.
-2024-04-10T14:21:47+00:00 Dany#00 I: 10 tests running: TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3, TestQueries:5:test_sum_update2, TestQueries:4:test_sum_update1, TestQueries:3:test_sum_query4, TestQueries:2:test_sum_query3, TestQueries:1:test_sum_query2, TestQueries:0:test_sum_query1.
-2024-04-10T14:21:47+00:00 Dany#01 I: Test TestQueries:0:test_sum_query1 is successful.
-2024-04-10T14:21:47+00:00 Dany#02 I: Test TestQueries:1:test_sum_query2 is successful.
-2024-04-10T14:21:47+00:00 Dany#03 I: Test TestQueries:2:test_sum_query3 is successful.
-2024-04-10T14:21:47+00:00 Dany#04 I: Test TestQueries:3:test_sum_query4 is successful.
-2024-04-10T14:21:47+00:00 Dany#05 I: Start test TestQueries:4:test_sum_update1.
-2024-04-10T14:21:47+00:00 Dany#06 I: Start test TestQueries:5:test_sum_update2.
-2024-04-10T14:21:47+00:00 Dany#00 I: 10 tests running: TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3, TestQueries:5:test_sum_update2, TestQueries:4:test_sum_update1, TestQueries:3:test_sum_query4, TestQueries:2:test_sum_query3, TestQueries:1:test_sum_query2, TestQueries:0:test_sum_query1.
-2024-04-10T14:21:47+00:00 Dany#01 I: End test TestQueries:0:test_sum_query1.
-2024-04-10T14:21:47+00:00 Dany#02 I: End test TestQueries:1:test_sum_query2.
-2024-04-10T14:21:47+00:00 Dany#03 I: End test TestQueries:2:test_sum_query3.
-2024-04-10T14:21:47+00:00 Dany#04 I: End test TestQueries:3:test_sum_query4.
-2024-04-10T14:21:47+00:00 Dany#05 I: Test TestQueries:4:test_sum_update1 is successful.
-2024-04-10T14:21:47+00:00 Dany#06 I: Test TestQueries:5:test_sum_update2 is successful.
-2024-04-10T14:21:47+00:00 Dany#07 I: Start test TestQueries:6:test_sum_update3.
-2024-04-10T14:21:47+00:00 Dany#00 I: 10 tests running: TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3, TestQueries:5:test_sum_update2, TestQueries:4:test_sum_update1, TestQueries:3:test_sum_query4, TestQueries:2:test_sum_query3, TestQueries:1:test_sum_query2, TestQueries:0:test_sum_query1.
-2024-04-10T14:21:47+00:00 Dany#05 I: End test TestQueries:4:test_sum_update1.
-2024-04-10T14:21:47+00:00 Dany#06 I: End test TestQueries:5:test_sum_update2.
-2024-04-10T14:21:47+00:00 Dany#07 I: Test TestQueries:6:test_sum_update3 is successful.
-2024-04-10T14:21:47+00:00 Dany#08 I: Start test TestQueries:7:test_sum_update4.
-2024-04-10T14:21:47+00:00 Dany#00 I: Still 8 tests running : TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3, TestQueries:5:test_sum_update2, TestQueries:4:test_sum_update1.
-2024-04-10T14:21:47+00:00 Dany#00 I: 8 tests running: TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3, TestQueries:5:test_sum_update2, TestQueries:4:test_sum_update1.
-2024-04-10T14:21:47+00:00 Dany#07 I: End test TestQueries:6:test_sum_update3.
-2024-04-10T14:21:47+00:00 Dany#09 I: Start test TestQueries:8:test_max_query1.
-2024-04-10T14:21:47+00:00 Dany#04 I: Start test TestQueries:10:test_max_query3.
-2024-04-10T14:21:47+00:00 Dany#03 I: Start test TestQueries:11:test_max_query4.
-2024-04-10T14:21:47+00:00 Dany#00 I: Still 6 tests running : TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3.
-2024-04-10T14:21:47+00:00 Dany#00 I: 6 tests running: TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3.
-2024-04-10T14:21:47+00:00 Dany#08 I: Test TestQueries:7:test_sum_update4 is successful.
-2024-04-10T14:21:47+00:00 Dany#09 I: Test TestQueries:8:test_max_query1 is successful.
-2024-04-10T14:21:47+00:00 Dany#10 I: Start test TestQueries:9:test_max_query2.
-2024-04-10T14:21:47+00:00 Dany#04 I: Test TestQueries:10:test_max_query3 is successful.
-2024-04-10T14:21:47+00:00 Dany#03 I: Test TestQueries:11:test_max_query4 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Still 5 tests running : TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4.
-2024-04-10T14:21:47+00:00 Dany#00 I: 5 tests running: TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4.
-2024-04-10T14:21:47+00:00 Dany#08 I: End test TestQueries:7:test_sum_update4.
-2024-04-10T14:21:47+00:00 Dany#09 I: End test TestQueries:8:test_max_query1.
-2024-04-10T14:21:47+00:00 Dany#10 I: Test TestQueries:9:test_max_query2 is successful.
-2024-04-10T14:21:47+00:00 Dany#04 I: End test TestQueries:10:test_max_query3.
-2024-04-10T14:21:47+00:00 Dany#03 I: End test TestQueries:11:test_max_query4.
-2024-04-10T14:21:47+00:00 Dany#00 I: Still 5 tests running : TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4.
-2024-04-10T14:21:47+00:00 Dany#00 I: 5 tests running: TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4.
-2024-04-10T14:21:47+00:00 Dany#10 I: End test TestQueries:9:test_max_query2.
-2024-04-10T14:21:47+00:00 Dany#00 I: Still 1 tests running : TestQueries:9:test_max_query2.
-2024-04-10T14:21:47+00:00 Dany#00 I: 1 tests running: TestQueries:9:test_max_query2.
-2024-04-10T14:21:47+00:00 Dany#00 I: 0 tests running: .
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#01 has ended.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#02 has ended.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#05 has ended.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#06 has ended.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#07 has ended.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#08 has ended.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#09 has ended.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#04 has ended.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#03 has ended.
-2024-04-10T14:21:47+00:00 Dany#00 I: Worker Dany#10 has ended.
-2024-04-10T14:21:47+00:00 Dany#00 I: Used 10 worker during test execution.
-2024-04-10T14:21:47+00:00 Dany#00 I: Run 1 tests with shard Dany#05.
-2024-04-10T14:21:47+00:00 Dany#00 I: Run 1 tests with shard Dany#09.
-2024-04-10T14:21:47+00:00 Dany#00 I: Run 1 tests with shard Dany#10.
-2024-04-10T14:21:47+00:00 Dany#00 I: Run 1 tests with shard Dany#08.
-2024-04-10T14:21:47+00:00 Dany#00 I: Run 1 tests with shard Dany#06.
-2024-04-10T14:21:47+00:00 Dany#00 I: Run 1 tests with shard Dany#01.
-2024-04-10T14:21:47+00:00 Dany#00 I: Run 2 tests with shard Dany#03.
-2024-04-10T14:21:47+00:00 Dany#00 I: Run 2 tests with shard Dany#04.
-2024-04-10T14:21:47+00:00 Dany#00 I: Run 1 tests with shard Dany#07.
-2024-04-10T14:21:47+00:00 Dany#00 I: Run 1 tests with shard Dany#02.
-2024-04-10T14:21:47+00:00 Dany#00 I: Check health of shard Dany#05, 5 times.
-2024-04-10T14:21:47+00:00 Dany#00 I: Check health of shard Dany#09, 2 times.
-2024-04-10T14:21:47+00:00 Dany#00 I: Check health of shard Dany#10, 1 times.
-2024-04-10T14:21:47+00:00 Dany#00 I: Check health of shard Dany#08, 2 times.
-2024-04-10T14:21:47+00:00 Dany#00 I: Check health of shard Dany#06, 5 times.
-2024-04-10T14:21:47+00:00 Dany#00 I: Check health of shard Dany#01, 6 times.
-2024-04-10T14:21:47+00:00 Dany#00 I: Check health of shard Dany#03, 2 times.
-2024-04-10T14:21:47+00:00 Dany#00 I: Check health of shard Dany#04, 2 times.
-2024-04-10T14:21:47+00:00 Dany#00 I: Check health of shard Dany#07, 4 times.
-2024-04-10T14:21:47+00:00 Dany#00 I: Check health of shard Dany#02, 6 times.
-2024-04-10T14:21:47+00:00 Dany#00 I: ==============
-2024-04-10T14:21:47+00:00 Dany#00 I: Summary:
-2024-04-10T14:21:47+00:00 Dany#00 I: Test TestQueries:9:test_max_query2 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Test TestQueries:11:test_max_query4 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Test TestQueries:10:test_max_query3 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Test TestQueries:8:test_max_query1 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Test TestQueries:7:test_sum_update4 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Test TestQueries:6:test_sum_update3 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Test TestQueries:5:test_sum_update2 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Test TestQueries:4:test_sum_update1 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Test TestQueries:3:test_sum_query4 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Test TestQueries:2:test_sum_query3 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Test TestQueries:1:test_sum_query2 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Test TestQueries:0:test_sum_query1 is successful.
-2024-04-10T14:21:47+00:00 Dany#00 I: Ran: 12 tests in: 0.12 seconds.
-2024-04-10T14:21:47+00:00 Dany#00 I: Cases: 12.
-2024-04-10T14:21:47+00:00 Dany#00 I: Tried: 12.
-2024-04-10T14:21:47+00:00 Dany#00 I: Errors: 0.
-2024-04-10T14:21:47+00:00 Dany#00 I: Failures: 0.
-2024-04-10T14:21:47+00:00 Dany#00 I: Skip: 0.
-2024-04-10T14:21:47+00:00 Dany#00 I: Todo: 0.
-2024-04-10T14:21:47+00:00 Dany#00 I: Timeout: 0.
+2024-04-10T14:52:10+00:00 Dany#00 I: Runner: processes
+2024-04-10T14:52:10+00:00 Dany#00 I: Chooser: simple
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration suite_name = "TestQueries"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration cache_filename = "/mnt/c/Users/danyd/OneDrive/ALicence/ProgrammationFonctionnelle/DPF-2024-BinaryTree/squelette/_build/default/test/oUnit-$(suite_name).cache"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration run_gc_full_major = "true"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration display = "true"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration results_style_1_X = "false"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration testdata_dir = "none"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration health_check_interval = "1."
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration verbose = "false"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration chooser = "simple"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration output_html_dir = "none"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration processes_kill_period = "5."
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration runner = "processes"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration shards = "10"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration processes_grace_period = "5."
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration log_encoding = "utf-8"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration output_junit_file = "none"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration ci = "false"
+2024-04-10T14:52:10+00:00 Dany#00 I: Configuration output_file = "/mnt/c/Users/danyd/OneDrive/ALicence/ProgrammationFonctionnelle/DPF-2024-BinaryTree/squelette/_build/default/test/oUnit-$(suite_name)-$(shard_id).log"
+2024-04-10T14:52:10+00:00 Dany#00 I: Using 10 workers maximum.
+2024-04-10T14:52:10+00:00 Dany#00 I: Starting worker number Dany#01.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#01 started.
+2024-04-10T14:52:10+00:00 Dany#00 I: Starting worker number Dany#02.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#02 started.
+2024-04-10T14:52:10+00:00 Dany#00 I: Starting worker number Dany#03.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#03 started.
+2024-04-10T14:52:10+00:00 Dany#00 I: Starting worker number Dany#04.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#04 started.
+2024-04-10T14:52:10+00:00 Dany#00 I: Starting worker number Dany#05.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#05 started.
+2024-04-10T14:52:10+00:00 Dany#00 I: Starting worker number Dany#06.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#06 started.
+2024-04-10T14:52:10+00:00 Dany#00 I: Starting worker number Dany#07.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#07 started.
+2024-04-10T14:52:10+00:00 Dany#00 I: Starting worker number Dany#08.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#08 started.
+2024-04-10T14:52:10+00:00 Dany#00 I: Starting worker number Dany#09.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#09 started.
+2024-04-10T14:52:10+00:00 Dany#00 I: Starting worker number Dany#10.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#10 started.
+2024-04-10T14:52:10+00:00 Dany#00 I: 10 tests running: TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3, TestQueries:5:test_sum_update2, TestQueries:4:test_sum_update1, TestQueries:3:test_sum_query4, TestQueries:2:test_sum_query3, TestQueries:1:test_sum_query2, TestQueries:0:test_sum_query1.
+2024-04-10T14:52:10+00:00 Dany#01 I: Start test TestQueries:0:test_sum_query1.
+2024-04-10T14:52:10+00:00 Dany#02 I: Start test TestQueries:1:test_sum_query2.
+2024-04-10T14:52:10+00:00 Dany#03 I: Start test TestQueries:2:test_sum_query3.
+2024-04-10T14:52:10+00:00 Dany#04 I: Start test TestQueries:3:test_sum_query4.
+2024-04-10T14:52:10+00:00 Dany#00 I: 10 tests running: TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3, TestQueries:5:test_sum_update2, TestQueries:4:test_sum_update1, TestQueries:3:test_sum_query4, TestQueries:2:test_sum_query3, TestQueries:1:test_sum_query2, TestQueries:0:test_sum_query1.
+2024-04-10T14:52:10+00:00 Dany#01 I: Test TestQueries:0:test_sum_query1 is successful.
+2024-04-10T14:52:10+00:00 Dany#02 I: Test TestQueries:1:test_sum_query2 is successful.
+2024-04-10T14:52:10+00:00 Dany#03 I: Test TestQueries:2:test_sum_query3 is successful.
+2024-04-10T14:52:10+00:00 Dany#04 I: Test TestQueries:3:test_sum_query4 is successful.
+2024-04-10T14:52:10+00:00 Dany#05 I: Start test TestQueries:4:test_sum_update1.
+2024-04-10T14:52:10+00:00 Dany#00 I: 10 tests running: TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3, TestQueries:5:test_sum_update2, TestQueries:4:test_sum_update1, TestQueries:3:test_sum_query4, TestQueries:2:test_sum_query3, TestQueries:1:test_sum_query2, TestQueries:0:test_sum_query1.
+2024-04-10T14:52:10+00:00 Dany#01 I: End test TestQueries:0:test_sum_query1.
+2024-04-10T14:52:10+00:00 Dany#02 I: End test TestQueries:1:test_sum_query2.
+2024-04-10T14:52:10+00:00 Dany#03 I: End test TestQueries:2:test_sum_query3.
+2024-04-10T14:52:10+00:00 Dany#04 I: End test TestQueries:3:test_sum_query4.
+2024-04-10T14:52:10+00:00 Dany#05 I: Test TestQueries:4:test_sum_update1 is successful.
+2024-04-10T14:52:10+00:00 Dany#06 I: Start test TestQueries:5:test_sum_update2.
+2024-04-10T14:52:10+00:00 Dany#00 I: 10 tests running: TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3, TestQueries:5:test_sum_update2, TestQueries:4:test_sum_update1, TestQueries:3:test_sum_query4, TestQueries:2:test_sum_query3, TestQueries:1:test_sum_query2, TestQueries:0:test_sum_query1.
+2024-04-10T14:52:10+00:00 Dany#05 I: End test TestQueries:4:test_sum_update1.
+2024-04-10T14:52:10+00:00 Dany#06 I: Test TestQueries:5:test_sum_update2 is successful.
+2024-04-10T14:52:10+00:00 Dany#07 I: Start test TestQueries:6:test_sum_update3.
+2024-04-10T14:52:10+00:00 Dany#00 I: 10 tests running: TestQueries:13:test_mss_query2, TestQueries:12:test_mss_query1, TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3, TestQueries:5:test_sum_update2, TestQueries:4:test_sum_update1.
+2024-04-10T14:52:10+00:00 Dany#06 I: End test TestQueries:5:test_sum_update2.
+2024-04-10T14:52:10+00:00 Dany#07 I: Test TestQueries:6:test_sum_update3 is successful.
+2024-04-10T14:52:10+00:00 Dany#04 I: Start test TestQueries:10:test_max_query3.
+2024-04-10T14:52:10+00:00 Dany#03 I: Start test TestQueries:11:test_max_query4.
+2024-04-10T14:52:10+00:00 Dany#02 I: Start test TestQueries:12:test_mss_query1.
+2024-04-10T14:52:10+00:00 Dany#01 I: Start test TestQueries:13:test_mss_query2.
+2024-04-10T14:52:10+00:00 Dany#00 I: 10 tests running: TestQueries:14:test_mss_query3, TestQueries:13:test_mss_query2, TestQueries:12:test_mss_query1, TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3, TestQueries:5:test_sum_update2.
+2024-04-10T14:52:10+00:00 Dany#07 I: End test TestQueries:6:test_sum_update3.
+2024-04-10T14:52:10+00:00 Dany#08 I: Start test TestQueries:7:test_sum_update4.
+2024-04-10T14:52:10+00:00 Dany#09 I: Start test TestQueries:8:test_max_query1.
+2024-04-10T14:52:10+00:00 Dany#04 I: Test TestQueries:10:test_max_query3 is successful.
+2024-04-10T14:52:10+00:00 Dany#03 I: Test TestQueries:11:test_max_query4 is successful.
+2024-04-10T14:52:10+00:00 Dany#02 I: Test TestQueries:12:test_mss_query1 is successful.
+2024-04-10T14:52:10+00:00 Dany#01 I: Test TestQueries:13:test_mss_query2 is successful.
+2024-04-10T14:52:10+00:00 Dany#05 I: Start test TestQueries:14:test_mss_query3.
+2024-04-10T14:52:10+00:00 Dany#00 I: Still 10 tests running : TestQueries:15:test_mss_query4, TestQueries:14:test_mss_query3, TestQueries:13:test_mss_query2, TestQueries:12:test_mss_query1, TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3.
+2024-04-10T14:52:10+00:00 Dany#00 I: 10 tests running: TestQueries:15:test_mss_query4, TestQueries:14:test_mss_query3, TestQueries:13:test_mss_query2, TestQueries:12:test_mss_query1, TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4, TestQueries:6:test_sum_update3.
+2024-04-10T14:52:10+00:00 Dany#08 I: Test TestQueries:7:test_sum_update4 is successful.
+2024-04-10T14:52:10+00:00 Dany#09 I: Test TestQueries:8:test_max_query1 is successful.
+2024-04-10T14:52:10+00:00 Dany#10 I: Start test TestQueries:9:test_max_query2.
+2024-04-10T14:52:10+00:00 Dany#04 I: End test TestQueries:10:test_max_query3.
+2024-04-10T14:52:10+00:00 Dany#03 I: End test TestQueries:11:test_max_query4.
+2024-04-10T14:52:10+00:00 Dany#02 I: End test TestQueries:12:test_mss_query1.
+2024-04-10T14:52:10+00:00 Dany#01 I: End test TestQueries:13:test_mss_query2.
+2024-04-10T14:52:10+00:00 Dany#05 I: Test TestQueries:14:test_mss_query3 is successful.
+2024-04-10T14:52:10+00:00 Dany#06 I: Start test TestQueries:15:test_mss_query4.
+2024-04-10T14:52:10+00:00 Dany#00 I: Still 9 tests running : TestQueries:15:test_mss_query4, TestQueries:14:test_mss_query3, TestQueries:13:test_mss_query2, TestQueries:12:test_mss_query1, TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4.
+2024-04-10T14:52:10+00:00 Dany#00 I: 9 tests running: TestQueries:15:test_mss_query4, TestQueries:14:test_mss_query3, TestQueries:13:test_mss_query2, TestQueries:12:test_mss_query1, TestQueries:11:test_max_query4, TestQueries:10:test_max_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4.
+2024-04-10T14:52:10+00:00 Dany#08 I: End test TestQueries:7:test_sum_update4.
+2024-04-10T14:52:10+00:00 Dany#09 I: End test TestQueries:8:test_max_query1.
+2024-04-10T14:52:10+00:00 Dany#10 I: Test TestQueries:9:test_max_query2 is successful.
+2024-04-10T14:52:10+00:00 Dany#05 I: End test TestQueries:14:test_mss_query3.
+2024-04-10T14:52:10+00:00 Dany#06 I: Test TestQueries:15:test_mss_query4 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Still 5 tests running : TestQueries:15:test_mss_query4, TestQueries:14:test_mss_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4.
+2024-04-10T14:52:10+00:00 Dany#00 I: 5 tests running: TestQueries:15:test_mss_query4, TestQueries:14:test_mss_query3, TestQueries:9:test_max_query2, TestQueries:8:test_max_query1, TestQueries:7:test_sum_update4.
+2024-04-10T14:52:10+00:00 Dany#10 I: End test TestQueries:9:test_max_query2.
+2024-04-10T14:52:10+00:00 Dany#06 I: End test TestQueries:15:test_mss_query4.
+2024-04-10T14:52:10+00:00 Dany#00 I: Still 2 tests running : TestQueries:15:test_mss_query4, TestQueries:9:test_max_query2.
+2024-04-10T14:52:10+00:00 Dany#00 I: 2 tests running: TestQueries:15:test_mss_query4, TestQueries:9:test_max_query2.
+2024-04-10T14:52:10+00:00 Dany#00 I: 0 tests running: .
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#07 has ended.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#04 has ended.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#03 has ended.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#02 has ended.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#01 has ended.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#08 has ended.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#09 has ended.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#05 has ended.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#10 has ended.
+2024-04-10T14:52:10+00:00 Dany#00 I: Worker Dany#06 has ended.
+2024-04-10T14:52:10+00:00 Dany#00 I: Used 10 worker during test execution.
+2024-04-10T14:52:10+00:00 Dany#00 I: Run 2 tests with shard Dany#05.
+2024-04-10T14:52:10+00:00 Dany#00 I: Run 1 tests with shard Dany#09.
+2024-04-10T14:52:10+00:00 Dany#00 I: Run 1 tests with shard Dany#10.
+2024-04-10T14:52:10+00:00 Dany#00 I: Run 1 tests with shard Dany#08.
+2024-04-10T14:52:10+00:00 Dany#00 I: Run 2 tests with shard Dany#06.
+2024-04-10T14:52:10+00:00 Dany#00 I: Run 2 tests with shard Dany#01.
+2024-04-10T14:52:10+00:00 Dany#00 I: Run 2 tests with shard Dany#03.
+2024-04-10T14:52:10+00:00 Dany#00 I: Run 2 tests with shard Dany#04.
+2024-04-10T14:52:10+00:00 Dany#00 I: Run 1 tests with shard Dany#07.
+2024-04-10T14:52:10+00:00 Dany#00 I: Run 2 tests with shard Dany#02.
+2024-04-10T14:52:10+00:00 Dany#00 I: Check health of shard Dany#05, 2 times.
+2024-04-10T14:52:10+00:00 Dany#00 I: Check health of shard Dany#09, 2 times.
+2024-04-10T14:52:10+00:00 Dany#00 I: Check health of shard Dany#10, 1 times.
+2024-04-10T14:52:10+00:00 Dany#00 I: Check health of shard Dany#08, 2 times.
+2024-04-10T14:52:10+00:00 Dany#00 I: Check health of shard Dany#06, 1 times.
+2024-04-10T14:52:10+00:00 Dany#00 I: Check health of shard Dany#01, 3 times.
+2024-04-10T14:52:10+00:00 Dany#00 I: Check health of shard Dany#03, 3 times.
+2024-04-10T14:52:10+00:00 Dany#00 I: Check health of shard Dany#04, 3 times.
+2024-04-10T14:52:10+00:00 Dany#00 I: Check health of shard Dany#07, 4 times.
+2024-04-10T14:52:10+00:00 Dany#00 I: Check health of shard Dany#02, 3 times.
+2024-04-10T14:52:10+00:00 Dany#00 I: ==============
+2024-04-10T14:52:10+00:00 Dany#00 I: Summary:
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:15:test_mss_query4 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:9:test_max_query2 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:14:test_mss_query3 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:8:test_max_query1 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:7:test_sum_update4 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:13:test_mss_query2 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:12:test_mss_query1 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:11:test_max_query4 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:10:test_max_query3 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:6:test_sum_update3 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:5:test_sum_update2 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:4:test_sum_update1 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:3:test_sum_query4 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:2:test_sum_query3 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:1:test_sum_query2 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Test TestQueries:0:test_sum_query1 is successful.
+2024-04-10T14:52:10+00:00 Dany#00 I: Ran: 16 tests in: 0.12 seconds.
+2024-04-10T14:52:10+00:00 Dany#00 I: Cases: 16.
+2024-04-10T14:52:10+00:00 Dany#00 I: Tried: 16.
+2024-04-10T14:52:10+00:00 Dany#00 I: Errors: 0.
+2024-04-10T14:52:10+00:00 Dany#00 I: Failures: 0.
+2024-04-10T14:52:10+00:00 Dany#00 I: Skip: 0.
+2024-04-10T14:52:10+00:00 Dany#00 I: Todo: 0.
+2024-04-10T14:52:10+00:00 Dany#00 I: Timeout: 0.
