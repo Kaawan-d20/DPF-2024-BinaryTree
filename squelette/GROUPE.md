@@ -5,5 +5,3 @@
 - Dany Dudiot
 - Agathe Papineau
 - Nathan Rissot
-
-### Répartition des tâches :
